@@ -14,6 +14,25 @@ public class Ex1P1_DenisZepeda {
 
     /**
      * @param args the command line arguments
+     * ⠀⠀⠀⠀⠀⣠⣤⣤⣤⣤⣤⣶⣦⣤⣄⡀⠀⠀⠀⠀⠀⠀⠀⠀ 
+⠀⠀⠀⠀⠀⠀⠀⠀⢀⣴⣿⡿⠛⠉⠙⠛⠛⠛⠛⠻⢿⣿⣷⣤⡀⠀⠀⠀⠀⠀ 
+⠀⠀⠀⠀⠀⠀⠀⠀⣼⣿⠋⠀⠀⠀⠀⠀⠀⠀⢀⣀⣀⠈⢻⣿⣿⡄⠀⠀⠀⠀ 
+⠀⠀⠀⠀⠀⠀⠀⣸⣿⡏⠀⠀⠀⣠⣶⣾⣿⣿⣿⠿⠿⠿⢿⣿⣿⣿⣄⠀⠀⠀ 
+⠀⠀⠀⠀⠀⠀⠀⣿⣿⠁⠀⠀⢰⣿⣿⣯⠁⠀⠀⠀⠀⠀⠀⠀⠈⠙⢿⣷⡄⠀ 
+⠀⠀⣀⣤⣴⣶⣶⣿⡟⠀⠀⠀⢸⣿⣿⣿⣆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⣷⠀ 
+⠀⢰⣿⡟⠋⠉⣹⣿⡇⠀⠀⠀⠘⣿⣿⣿⣿⣷⣦⣤⣤⣤⣶⣶⣶⣶⣿⣿⣿⠀ 
+⠀⢸⣿⡇⠀⠀⣿⣿⡇⠀⠀⠀⠀⠹⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠃⠀ 
+⠀⣸⣿⡇⠀⠀⣿⣿⡇⠀⠀⠀⠀⠀⠉⠻⠿⣿⣿⣿⣿⡿⠿⠿⠛⢻⣿⡇⠀⠀ 
+⠀⣿⣿⠁⠀⠀⣿⣿⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⣧⠀⠀ 
+⠀⣿⣿⠀⠀⠀⣿⣿⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⣿⠀⠀ 
+⠀⣿⣿⠀⠀⠀⣿⣿⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⣿⠀⠀ 
+⠀⢿⣿⡆⠀⠀⣿⣿⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⡇⠀⠀ 
+⠀⠸⣿⣧⡀⠀⣿⣿⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ ⣿⣿⠃⠀⠀ 
+⠀⠀⠛⢿⣿⣿⣿⣿⣇⠀⠀⠀⠀⠀⣰⣿⣿⣷⣶⣶⣶⣶⠶ ⢠⣿⣿⠀⠀⠀ 
+⠀⠀⠀⠀⠀⠀⠀⣿⣿⠀⠀⠀⠀⠀⣿⣿⡇⠀⣽⣿⡏⠁⠀⠀ ⢸⣿⡇⠀⠀⠀ 
+⠀⠀⠀⠀⠀⠀⠀⣿⣿⠀⠀⠀⠀⠀⣿⣿⡇⠀⢹⣿⡆⠀⠀⠀ ⣸⣿⠇⠀⠀⠀ 
+⠀⠀⠀⠀⠀⠀⠀⢿⣿⣦⣄⣀⣠⣴⣿⣿⠁⠀⠈⠻⣿⣿⣿⣿⡿⠏⠀⠀⠀⠀ 
+⠀⠀⠀⠀⠀⠀⠀⠈⠛⠻⠿⠿⠿⠿⠋⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
      */
     static Scanner entry = new Scanner(System.in);
 
@@ -45,11 +64,11 @@ public class Ex1P1_DenisZepeda {
                     switch (opc1) {
                         case 1:
                             encrip = ejercicioencrip(mensaje, clave);
-                            System.out.println("A escondido el mensaje de las tropas imperiales. Su mensaje encriptado es: "+encrip);
+                            System.out.println("A escondido el mensaje de las tropas imperiales. Su mensaje encriptado es: " + encrip);
                             break;
                         case 2:
                             desencrip = desencriptado(mensaje, clave);
-                            System.out.println("Usando la fuerza, pudo abrir el holocron y desencriptar el mensaje. Su mensaje desencriptado es: "+desencrip);
+                            System.out.println("Usando la fuerza, pudo abrir el holocron y desencriptar el mensaje. Su mensaje desencriptado es: " + desencrip);
                             break;
                         default:
                             throw new AssertionError();
@@ -60,6 +79,8 @@ public class Ex1P1_DenisZepeda {
                     int num = 0;
                     System.out.println("Ingrese dimensiones del nuevo tie fighter (Numero impar mayor o igual a 5)");
                     num = entry.nextInt();
+                    
+                    ImprimirTieFighter(num);
                     break;
                 case 3:
                     System.out.println("Cadena Escondida");
@@ -91,9 +112,9 @@ public class Ex1P1_DenisZepeda {
                 int pos = caracter - base;
 
                 if (pos % 2 == 0) {
-                    pos = pos - desicion;
-                } else {
                     pos = pos + desicion;
+                } else {
+                    pos = pos - desicion;
                 }
                 pos = (pos + 26) % 26;
                 caracter = (char) (base + pos);
@@ -122,9 +143,9 @@ public class Ex1P1_DenisZepeda {
                 int pos = caracter - base;
 
                 if (pos % 2 == 0) {
-                    pos = pos + desicion;
-                } else {
                     pos = pos - desicion;
+                } else {
+                    pos = pos + desicion;
                 }
                 pos = (pos + 26) % 26;
                 caracter = (char) (base + pos);
@@ -135,7 +156,36 @@ public class Ex1P1_DenisZepeda {
         return resp;
     }
 
-    /*public static void ImprimirTieFighter(int n) {
+    public static void ImprimirTieFighter(int num) {
+        System.out.println("Fighter");
+        System.out.println();
+        for (int i = 0; i < num; i++) {
+            int espacios = (num - 3) / 2;
+            System.out.print("|");
+            if (i == num / 2) {
+               
+                for (int j = 1; j < espacios; j++) {
+                    System.out.print("-");
+                }
+                System.out.print("***");
+                for (int j = 1; j < espacios; j++) {
+                    System.out.print("-");
+                }
+            } else if (i == (num / 2) - 1 || i == (num / 2) + 1) {
+                for (int j = 1; j < espacios; j++) {
+                    System.out.print(" ");
+                }
+                System.out.print("***");
+                for (int j = 1; j < espacios; j++) {
+                    System.out.print(" ");
+                }
 
-    }*/
+            } else {
+                for (int j = 0; j < num-2; j++) {
+                    System.out.print(" ");
+                }
+            }
+            System.out.println("|");
+        }
+    }
 }
